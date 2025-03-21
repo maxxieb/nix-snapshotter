@@ -1,4 +1,4 @@
-{ self, inputs, lib ... }:
+{ self, inputs, lib, ... }:
 {
   # Provide overlay to add `nix-snapshotter`.
   flake.overlays.default = self: super: {
