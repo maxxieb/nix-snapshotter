@@ -28,7 +28,7 @@
               ++ [
                 ./patches/k3s-nix-snapshotter.patch
               ];
-            patchFlags = ["--binary"];
+            patchFlags = ["--ignore-whitespace" ];
           });
     };
   };
